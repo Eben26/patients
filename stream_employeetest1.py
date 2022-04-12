@@ -3,7 +3,7 @@ from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
 import numpy as np
-model = load_model('saved_kmeans_model')
+model = load_model('savedkmeans')
 
 
 
