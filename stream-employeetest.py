@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 #print("starting to load saved model")estimamodeltor
-model = load_model('savedkmeans')
+model = load_model('savedkmeans.pkl')
 #print("loaded the saved model")
 
 
