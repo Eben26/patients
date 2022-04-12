@@ -44,7 +44,7 @@ def run():
     if file_upload is not None:
         data = pd.read_csv(file_upload) 
         #print(data.shape)
-        predictions = predict_model(estimator=model,data=data)
+        predictions = predict_model(model,data=data)
         #predictions.to_csv('sasasas.csv')
         print(predictions.columns)
 #         c=input ('enter the relationship name')
