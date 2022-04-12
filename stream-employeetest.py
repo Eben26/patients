@@ -3,9 +3,9 @@ from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
 import numpy as np
-print("starting to load saved model")
+#print("starting to load saved model")estimamodeltor
 model = load_model('savedkmeans')
-print("loaded the saved model")
+#print("loaded the saved model")
 
 
 
@@ -46,7 +46,7 @@ def run():
         #print(data.shape)
         predictions = predict_model(model,data=data)
         #predictions.to_csv('sasasas.csv')
-        print(predictions.columns)
+        #print(predictions.columns)
 #         c=input ('enter the relationship name')
 #         print(c)
 #             for i in range(len(got_data)):
