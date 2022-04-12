@@ -3,7 +3,9 @@ from pycaret.classification import load_model, predict_model
 import streamlit as st
 import pandas as pd
 import numpy as np
+print("starting to load saved model")
 model = load_model('savedkmeans')
+print("loaded the saved model")
 
 
 
