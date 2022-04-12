@@ -19,13 +19,13 @@ def run():
     from PIL import Image
     #image = Image.open('employeeleftimage.jpg')
     #image_office = Image.open('office.jpg')
-    st.image(image,use_column_width=True)
+    #st.image(image,use_column_width=True)
     add_selectbox = st.sidebar.selectbox(
     "How would you like to predict?",
     ("Online", "Batch"))
     st.sidebar.info('This app is created to predict if an employee will leave the company')
     st.sidebar.success('https://www.pycaret.org')
-    st.sidebar.image(image_office)
+    #st.sidebar.image(image_office)
     st.title("Predicting employee leaving")
     
     if add_selectbox == 'Batch':
